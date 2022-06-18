@@ -1,9 +1,9 @@
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const clean = require('gulp-clean');
-var cssmin = require('gulp-cssmin');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
+const cssmin = require('gulp-cssmin');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
 
 function cleanDist() {
     return gulp.src('dist/*', {read: false})
